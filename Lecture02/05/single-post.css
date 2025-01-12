@@ -1,0 +1,17 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 20px;
+    background-color: white;
+}
+
+.post-header h1,
+.comments h2 {
+    color: #3f3f3f;
+}
+
+.post-header p,
+.comment header {
+    font-size: 0.9em;
+    color: #666;
+}

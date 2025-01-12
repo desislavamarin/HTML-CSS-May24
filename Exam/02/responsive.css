@@ -1,0 +1,41 @@
+@media (max-width: 600px) {
+    header nav {
+    flex-direction: column;
+    }
+
+    img {
+        padding-bottom: 1em;
+    }
+
+    .header-title {
+    padding: 0.5em 0;
+    }
+
+    .our-dogs ul li img{
+        width: 180px;
+        height: 180px;
+    }
+
+    .helpNeed {
+        display: flex;
+        justify-content: center;
+    }
+
+    .helpNeed ul {
+        flex-direction: column;
+    }
+
+    .helpNeed li h4 {
+        padding-bottom: 1rem;
+        margin-top: 10px;
+    }
+
+    .contact p:nth-child(3) {
+        width: 100%;
+        padding: 0 5em;
+    }
+
+    .our-dogs ul li > p:nth-child(2) {
+        padding-bottom: 0.5em;
+    }
+}

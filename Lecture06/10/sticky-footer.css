@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fff;
+    padding: 2em;
+    border: 2px solid green;
+    font: 14px/1.5 Helvetica, sans-serif;
+}
+
+.site {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    min-height: 80vh;
+    justify-content: space-between;
+}
+
+.site > * {
+    border: 2px solid blue;
+    padding: 2em;
+
+}
+
+.site > main {
+    flex-grow: 1;
+}

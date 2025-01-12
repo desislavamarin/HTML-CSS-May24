@@ -1,0 +1,28 @@
+h1 {
+    color: blue;
+}
+
+p {
+    font-size: 14px;
+}
+
+.highlighted {
+    color: orange;
+}
+
+#main-title {
+    color: purple;
+}
+
+#special-paragraph {
+    font-style: italic;
+}
+
+li {
+    list-style-type: circle;
+    color: aquamarine;
+}
+
+div {
+    background: lightcoral;
+}

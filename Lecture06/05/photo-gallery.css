@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+body {
+    background: #eee;
+    font: 14px/1,5 Lato, sans-serif;
+    padding: 2em;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.gallery li {
+    flex: 1 1 calc(33% - (2 * 2em));
+    display: flex;
+    border: 5px solid #000;
+    list-style: none outside;
+    background: #fff;
+    padding: 1em;
+    position: relative;
+    box-shadow: 0 0 0.5em 1 rgb(0, 0, 0, 0.2);
+    border-radius: 0.2em;
+}
+
+.gallery a {
+    display: flex;
+    text-decoration: none;
+}
+
+.gallery figure {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.gallery figure .media {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1 1 auto;
+}
+
+.gallery figure .media img {
+    box-shadow: 0 0 1em 0 rgb(0,0,0,0.2);
+    border-radius: 0.2em;
+}
+
+.gallery figcaption {
+    font-style: italic;
+    opacity: 0.4;
+}

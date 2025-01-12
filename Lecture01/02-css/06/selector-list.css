@@ -1,0 +1,32 @@
+/* Selector List for Text Styles */
+h1, h2, p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+/* Selector List for Layout Styles */
+header, section, footer {
+    margin: 10px 0;
+    padding: 15px;
+    border: 1px solid #ccc;
+}
+
+/* Selector List for Hover Effects */
+nav a:hover, .services a:hover, footer a:hover {
+    color: #3862a0;
+    text-decoration: underline;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: black;
+}

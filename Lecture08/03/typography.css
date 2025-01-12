@@ -1,0 +1,110 @@
+html {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Lato, sans-serif;
+}
+
+@media (min-width: 600px) {
+	html { font-size: 14px; }
+}
+
+@media (min-width: 900px) {
+	html { font-size: 16px; }
+}
+
+@media (min-width: 1200px) {
+	html { font-size: 18px; }
+}
+
+body, input, button {
+    font: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.2;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    font-family: Georgia;
+}
+
+h1 {
+    font-size: 2.8em;
+}
+
+h2 {
+    font-size: 2.2em;
+}
+
+h3 {
+    font-size: 1.8em;
+}
+
+h4 {
+    font-size: 1.6em;
+}
+
+h5 {
+    font-size: 1.4em;
+}
+
+h6 {
+    font-size: 1.2em;
+}
+
+p, ul, ol {
+    padding-bottom: 1.5em;
+}
+
+ul ul, ul ol, ol ul, ol ol {
+    padding-bottom: 0;
+}
+
+ul, ol {
+    padding-left: 1.5em;
+}
+
+blockquote {
+	border-left: 4px solid rgb(221, 221, 221);
+	font-style: italic;
+	margin: 0 0 1.5rem 2rem;
+	padding: 1rem 2rem;
+	position: relative;
+}
+
+.author {
+    text-align: right;
+}
+
+table {
+	width: 100%;
+	table-layout: fixed;
+	margin-bottom: 1.5rem;
+	border: 1px solid #CCC;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+table td,
+table th {
+	border: 1px solid #CCC;
+	padding: 0.3rem 0.5rem;
+}
+
+table thead th {
+	text-align: left;
+	background: #CCC;
+}
+
+table tr:nth-child(odd) td {
+	background: #F1F1F1;
+}
+
+table tr:hover td {
+	background: black;
+	color: #FFF;
+	border-color: transparent;
+}
+
+hr {
+	margin: 2rem 0;
+}

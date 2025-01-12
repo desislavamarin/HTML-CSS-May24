@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box-model {
+    max-width: 600px;
+    margin: 4em auto;
+}
+
+.box-model div {
+    border: 1px dashed #333;
+    padding: 1em 2em 2em 2em;
+}
+
+.box-model div::before {
+    display: block;
+    padding-bottom: 0.5em;
+    margin-left: -1em;
+}
+
+.margin {
+    background: #ff966f;
+}
+
+.margin::before {
+    display: block;
+    content: 'margin';
+}
+
+.border {
+    background: #ffe8c6;
+}
+
+.border::before {
+    display: block;
+    content: 'border';
+}
+
+.padding {
+    background: #85eb85;
+}
+
+.padding::before {
+    display: block;
+    content: 'padding';
+}
+
+.content {
+    background: #a3d2e2;
+    text-align: center;
+}

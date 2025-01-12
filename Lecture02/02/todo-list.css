@@ -1,0 +1,7 @@
+ul li {
+    list-style-type: upper-greek;
+}
+
+.done li {
+    text-decoration: line-through;   
+}

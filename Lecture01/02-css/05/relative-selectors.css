@@ -1,0 +1,43 @@
+/* Descendant Selector */
+section p {
+    color: darkgreen;
+}
+
+/* Child Selector */
+.main-list > li {
+    font-weight: bold;
+}
+
+/* Adjacent Sibling Selector */
+article.highlight + article {
+    background-color: lightcoral;
+}
+
+/* General Sibling Selector */
+h2.styled ~ p {
+    color: royalblue;
+}
+
+/* Combining Relative Selectors for specificity */
+li.special + li a {
+    color: green;
+}
+
+.special {
+    color: tomato;
+}
+
+body {
+    font-family: Ariel, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+ul ul {
+    padding: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
